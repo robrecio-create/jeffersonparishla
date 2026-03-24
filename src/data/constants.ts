@@ -1,12 +1,11 @@
 export const towns = [
   { name: 'Metairie', slug: 'metairie', businesses: 0 },
   { name: 'Kenner', slug: 'kenner', businesses: 0 },
+  { name: 'Gretna', slug: 'gretna', businesses: 0 },
   { name: 'Harvey', slug: 'harvey', businesses: 0 },
   { name: 'Marrero', slug: 'marrero', businesses: 0 },
-  { name: 'Gretna', slug: 'gretna', businesses: 0 },
   { name: 'Westwego', slug: 'westwego', businesses: 0 },
 ];
-
 export const categories = [
   { name: 'Restaurants & Dining', slug: 'restaurants-dining', icon: '🍽️', count: 0 },
   { name: 'Shopping & Retail', slug: 'shopping-retail', icon: '🛍️', count: 0 },
@@ -27,7 +26,6 @@ export const categories = [
   { name: 'Accommodations', slug: 'accommodations', icon: '🏨', count: 0 },
   { name: 'Appliances & Rentals', slug: 'appliances-rentals', icon: '🔌', count: 0 },
 ];
-
 export const navLinks = [
   { label: 'Home', href: '/' },
   { label: 'Listings', href: '/listings/' },
